@@ -1,0 +1,67 @@
+section{
+    color: white;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 288px;
+}
+
+.section__cards{
+    padding: 10px 0 0 0;
+}
+.section__title{
+    font-size: 1.8rem;
+}
+
+.section__header{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section__days{
+    display: flex;
+}
+
+
+.section__weather{
+    display: flex;
+    overflow: auto;
+    margin-top: 10px;
+    gap: 3px;
+    width: 100%;
+    min-width: 288px;
+    justify-content: center;
+    
+}
+.section__weather p {
+    font-size: 1.4rem;
+}
+
+.section__card{
+	background: #2352cb;
+    min-width: 70px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+.section__card img{
+    display: block;
+    width: 40px;
+    margin: 0 auto;
+}
+
+@media (max-width: 580px) {
+    .section__weather{
+        justify-content: start;
+        padding: 0 5px;
+
+    }
+}

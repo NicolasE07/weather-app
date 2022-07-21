@@ -1,0 +1,42 @@
+.container-modal__card{
+    width: 90%;
+    max-width: 400px;
+    min-height: 320px;
+    background: linear-gradient(#06c7f1, #07b9e0, #0648f1);
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+}
+.container-modal__card .date{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container-modal__card h2{
+    font-size: 3rem;
+}
+.container-modal__card .main{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.container-modal__card .x{
+    position: absolute;
+    font-size: 2.5rem;
+    top: -5px;
+    right: 10px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-modal__info{
+    margin: 10px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    place-content: center;
+}
+
+.container-modal__info div h4{
+    margin-bottom: 5px;
+}
